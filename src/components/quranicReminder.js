@@ -79,6 +79,46 @@ const quranicReminders = [
         verse: "Quran 25:63",
         reminder: "And the servants of the Most Merciful are those who walk upon the earth easily."
       },
+      {
+        verse: "Quran 27:62",
+        reminder: "Is there any deity with Allah? Exalted is Allah above whatever they associate with Him."
+      },
+      {
+        verse: "Quran 28:77",
+        reminder: "But seek, through that which Allah has given you, the home of the Hereafter."
+      },
+      {
+        verse: "Quran 29:69",
+        reminder: "And those who strive for Us - We will surely guide them to Our ways. And indeed, Allah is with the doers of good."
+      },
+      {
+        verse: "Quran 30:21",
+        reminder: "And of His signs is that He created for you from yourselves mates that you may find tranquility in them."
+      },
+      {
+        verse: "Quran 31:17",
+        reminder: "O my son, establish prayer, enjoin what is right, forbid what is wrong, and be patient over what befalls you."
+      },
+      {
+        verse: "Quran 32:21",
+        reminder: "And whoever turns away from My remembrance - indeed, he will have a depressed life."
+      },
+      {
+        verse: "Quran 33:35",
+        reminder: "Indeed, the Muslim men and Muslim women, the believing men and believing women, the obedient men and obedient women, the truthful men and truthful women, the patient men and patient women, the humble men and humble women, the charitable men and charitable women, the fasting men and fasting women, the men who guard their private parts and the women who do so, and the men who remember Allah often and the women who do so - for them Allah has prepared forgiveness and a great reward."
+      },
+      {
+        verse: "Quran 34:10",
+        reminder: "And We certainly gave David from Us bounty. [We said], 'O mountains, repeat [Our] praises with him, and the birds [as well].' And We made pliable for him iron."
+      },
+      {
+        verse: "Quran 35:3",
+        reminder: "O mankind, remember the favor of Allah upon you."
+      },
+      {
+        verse: "Quran 36:60",
+        reminder: "Did I not enjoin upon you, O children of Adam, that you not worship Satan?"
+      },
   ];
   
   export default quranicReminders;
