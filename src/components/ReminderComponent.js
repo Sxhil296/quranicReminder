@@ -9,7 +9,7 @@ const ReminderComponent = () => {
     setRandomReminder(quranicReminders[randomIndex]);
   };
   return (
-    <main className="flex flex-col items-center justify-center h-screen lg:bg-[url('/medina.webp')] bg-[url('/mobile.jpeg')] bg-no-repeat bg-cover bg-center">
+    <main className="flex flex-col items-center justify-center h-screen lg:bg-[url('/medina.webp')] bg-[url('/mobile.jpeg')] bg-no-repeat bg-cover bg-center overflow-hidden">
       <div className="p-4 rounded-md lg:w-3/6 lg:h-3/4 flex flex-col items-center justify-center lg:relative">
         <h2 className="text-4xl font-bold absolute lg:top-20 lg:mt-10 top-10">Quranic Reminders</h2>
         {randomReminder ? (
