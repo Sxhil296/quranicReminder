@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Head>
         <title>Quranic Reminders</title>
-        <link rel="icon" href="/quran.ico" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <ReminderComponent />
     </>
