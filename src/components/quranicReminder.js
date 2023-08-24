@@ -29,7 +29,7 @@ const quranicReminders = [
       },
       {
         verse: "Quran 9:71",
-        reminder: "The believing men and believing women are allies of one another."
+        reminder: "The believers, both men and women, are allies of one another."
       },
       {
         verse: "Quran 10:62",
