@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import quranicReminders from "./quranicReminder";
+import Link from "next/link";
 
 const ReminderComponent = () => {
   const [randomReminder, setRandomReminder] = useState(null);
@@ -9,7 +10,7 @@ const ReminderComponent = () => {
     setRandomReminder(quranicReminders[randomIndex]);
   };
   return (
-    <main className="flex flex-col items-center justify-center h-screen lg:bg-[url('/medina.webp')] bg-[url('/mobile.jpeg')] bg-no-repeat bg-cover bg-center overflow-hidden">
+    <main className="flex flex-col items-center justify-center h-screen bg-[url('/medina.webp')]  bg-no-repeat bg-cover bg-center overflow-hidden">
       <div className="p-4 rounded-md lg:w-3/6 lg:h-3/4 flex flex-col items-center justify-center lg:relative">
         <h2 className="text-4xl font-bold absolute lg:top-20 lg:mt-10 top-10">Quranic Reminders</h2>
         {randomReminder ? (
@@ -22,7 +23,7 @@ const ReminderComponent = () => {
         )}
         <button onClick={generateRandomReminder} className="border-2 rounded-md border-slate-50 px-4 py-2 mt-16 font-medium bg-slate-500 bg-opacity-50 text-slate-50">Get Reminder</button>
       </div>
-      <p className="absolute bottom-0 w-full text-center text-sm text-white py-2">Built with &hearts; by Sahil</p>
+      <p className="absolute bottom-0 w-full text-center text-sm text-white py-2">Built with &hearts; by <Link href={'https://sahil-malik.netlify.app/'}>Sahil</Link></p>
     </main>
   );
 };
