@@ -104,10 +104,6 @@ const quranicReminders = [
         reminder: "And whoever turns away from My remembrance - indeed, he will have a depressed life."
       },
       {
-        verse: "Quran 33:35",
-        reminder: "Indeed, the Muslim men and Muslim women, the believing men and believing women, the obedient men and obedient women, the truthful men and truthful women, the patient men and patient women, the humble men and humble women, the charitable men and charitable women, the fasting men and fasting women, the men who guard their private parts and the women who do so, and the men who remember Allah often and the women who do so - for them Allah has prepared forgiveness and a great reward."
-      },
-      {
         verse: "Quran 34:10",
         reminder: "And We certainly gave David from Us bounty. [We said], 'O mountains, repeat [Our] praises with him, and the birds [as well].' And We made pliable for him iron."
       },
